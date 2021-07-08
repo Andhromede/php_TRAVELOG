@@ -1,0 +1,192 @@
+/* GENERAL */
+.menulat {
+    background-color:#dcdacd;
+    font-family: 'Halant', serif;
+    margin-top:3em;
+    padding-bottom:80em;
+    width:14.5em;
+}
+
+    @media screen and (max-width : 1200px) {
+        .menulat {
+                width:11.7em;
+                padding-bottom:70em;
+            }
+    }
+
+    @media screen and (max-width : 910px) {
+        .menulat {
+                width:10.5em;
+                margin-top:2.5em;
+                padding-bottom:45em;
+            }
+    }
+
+    @media screen and (max-width : 600px) {
+        .menulat {
+                width:36.5em;
+                padding-bottom:1%;
+            }
+    }
+
+    @media screen and (max-width : 480px) {
+        .menulat {
+                width:29em;
+                padding-bottom:1%;
+                width:30em;
+            }
+    }
+
+/* FILTRES */
+.titreContinent {
+    padding-top:7%;
+    padding-left:0.6em;;
+    font-size:1.25em;
+}
+
+    @media screen and (max-width : 1200px) {
+        .titreContinent {
+            font-size:1.1em;
+            }
+    }
+
+    @media screen and (max-width : 1000px) {
+        .titreContinent {
+            font-size:1em;
+            }
+    }
+
+    @media screen and (max-width : 600px) {
+        .titreContinent {
+            font-size:0.8em;
+            padding-top:3%;
+            padding-bottom:1%;
+            }
+    }
+
+    @media screen and (max-width : 480px) {
+        .titreContinent {
+            font-size:0.6em;
+            padding-top:3%;
+            padding-bottom:1%;
+            }
+    }
+
+.titrePays, .titreVille, .titreLeplus {
+    font-size:1.25em;
+    padding-left:0.6em;
+}
+
+    @media screen and (max-width : 1200px) {
+        .titrePays, .titreVille, .titreLeplus {
+            font-size:1.1em;
+            }
+    }
+
+    @media screen and (max-width : 1000px) {
+        .titrePays, .titreVille, .titreLeplus {
+            font-size:1em;
+            }
+    }
+
+    @media screen and (max-width : 600px) {
+        .titrePays, .titreVille, .titreLeplus {
+            font-size:0.8em;
+            }
+    }
+
+    @media screen and (max-width : 480px) {
+        .titrePays, .titreVille, .titreLeplus {
+            font-size:0.6em;
+            }
+    }
+
+.continent, .pays, .ville, .populaire, .recent {
+    color:#707070;
+    font-size:1em;
+    padding-left:1em;
+}
+
+    @media screen and (max-width : 1200px) {
+        .continent, .pays, .ville, .populaire, .recent {
+            font-size:0.9em;
+            }
+    }
+
+    @media screen and (max-width : 1000px) {
+        .continent, .pays, .ville, .populaire, .recent {
+            font-size:0.8em;
+            }
+    }
+
+    @media screen and (max-width : 600px) {
+        .continent, .pays, .ville, .populaire, .recent {
+            font-size:0.7em;
+            margin-bottom:0em;
+            }
+    }
+
+    @media screen and (max-width : 480px) {
+        .continent, .pays, .ville, .populaire, .recent {
+            font-size:0.6em;
+            margin-bottom:0em;
+            }
+    }
+
+ /* CASES ou CHECKBOX */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 2em !important;
+    margin-bottom: 0.5em;
+}
+  
+/* Cache les cases par défaut */
+.container input {
+    opacity: 0;
+  }
+
+/* Personnalisation des cases */
+.checkmark {
+    position: absolute;
+    top: 0.25em;
+    left: 0;
+    height: 1em;
+    width: 1em;
+    background-color: #eee;
+    border: 0.05em solid #707070;
+}
+  
+/* Quand la souris passe sur les cases */
+.container:hover input ~ .checkmark {
+    background-color: #707070;
+}
+  
+/* Quand l'utilisateur clique sur les cases */
+.container input:checked ~ .checkmark {
+    background-color: #52908b;
+}
+  
+/* Sigle qui montre que la case a été cochée */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+/* Personnalisation du sigle qui montre que la case a été cochée */
+.container .checkmark:after {
+    left: 0.25em;
+    top: -0.08em;
+    width: 0.40em;
+    height: 0.90em;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+} 

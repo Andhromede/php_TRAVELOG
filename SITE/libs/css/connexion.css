@@ -1,0 +1,409 @@
+/* EN-TÊTE DE LA PAGE AVEC LOGO ET TITRE */
+.nomtravelog {
+    color: #52908b;
+    font-family: 'Rancho', cursive;
+    font-size:5em;
+    letter-spacing:0.15em;
+    margin-top:0.2em;
+}
+
+    @media screen and (max-width : 1280px) {
+        .nomtravelog {
+                font-size:4em;
+                margin-left:0.5em;
+                margin-top:0.6em;
+            }
+    }
+
+    @media screen and (max-width : 1070px) {
+        .nomtravelog {
+            margin-left:0.7em;
+            margin-top:0.5em;
+            }
+    }
+
+    @media screen and (max-width : 900px) {
+        .nomtravelog {
+            margin-left:0.5em;
+            margin-top:0.8em;
+            }
+    }
+
+    @media screen and (max-width : 700px) {
+        .nomtravelog {
+            margin-left:-0.2em;
+        }
+    }
+
+    @media screen and (max-width : 550px) {
+        .nomtravelog {
+            font-size:3em;
+            margin-top:-0.5em;
+            margin-left:2.25em;
+        }
+    }
+
+    @media screen and (max-width : 450px) {
+        .nomtravelog {
+            margin-top:0em;
+        }
+    }
+
+    @media screen and (max-width : 400px) {
+        .nomtravelog {
+            font-size:2.75em;
+            margin-left:1.75em;
+        }
+    }
+
+
+
+
+.logotravelog {
+    height: 18em;
+    width: 18em;
+    margin-top:-2em;
+    margin-left:12em;
+}
+
+    @media screen and (max-width : 1280px) {
+        .logotravelog {
+                height: 14em;
+                width: 14em;
+                margin-top:1em;
+                margin-left:13em;
+            }
+    }
+
+    @media screen and (max-width : 1070px) {
+        .logotravelog {
+            height:10em;
+            width: 10em;
+            margin-top:2.5em;
+            margin-left:11em;
+            }
+    }
+
+    @media screen and (max-width : 900px) {
+        .logotravelog {
+            height:10em;
+            width:10em;
+            margin-top:5em;
+            margin-left:7em;
+            }
+    }
+
+    @media screen and (max-width : 700px) {
+        .logotravelog {
+            height:9em;
+            width:9em;
+            margin-top:1.5em;
+            margin-left:5.5em;
+        }
+    }
+
+    @media screen and (max-width : 550px) {
+        .logotravelog {
+            height:8em;
+            width:8em;
+            margin-top:1em;
+            margin-left:10em;
+        }
+    }
+
+    @media screen and (max-width : 450px) {
+        .logotravelog {
+            margin-top:1.5em;
+            margin-left:9em;
+        }
+    }
+
+    @media screen and (max-width : 400px) {
+        .logotravelog {
+            height:7.5em;
+            width:7.5em;
+            margin-top:2em;
+            margin-left:8em;
+        }
+    }
+
+
+
+/* DESIGN GENERAL DE L'ENCADRE */
+.encadreconnexion {
+    background-color: #dcdacd;
+    height:28em;
+    width:28em;
+    margin-top:-8em;
+    margin-left:8em;
+    border: solid #52908b 0.2em;
+}
+
+    @media screen and (max-width : 1280px) {
+        .encadreconnexion {
+                height:25em;
+                width: 25em;
+                margin-top:-6em;
+                margin-left:9em;
+            }
+    }
+
+    @media screen and (max-width : 1090px) {
+        .encadreconnexion {
+            margin-left:26em;
+        }
+    }
+
+    @media screen and (max-width : 1070px) {
+        .encadreconnexion {
+            margin-top:-4em;
+            margin-left:21em;
+        }
+    }
+
+    @media screen and (max-width : 900px) {
+        .encadreconnexion {
+            margin-top:-5em;
+            margin-left:16em;
+        }
+    }
+
+    @media screen and (max-width : 700px) {
+        .encadreconnexion {
+            margin-top:-0.5em;
+            margin-left:8em;
+        }
+    }
+
+    @media screen and (max-width : 550px) {
+        .encadreconnexion {
+            height:20em;
+            width:20em;
+            margin-top:1.5em;
+            margin-left:4em;
+        }
+    }
+
+    @media screen and (max-width : 450px) {
+        .encadreconnexion {
+            margin-top:2em;
+            margin-left:3.25em;
+        }
+    }
+
+    @media screen and (max-width : 400px) {
+        .encadreconnexion {
+            height:17em;
+            width:17em;
+            margin-top:2em;
+            margin-left:3em;
+        }
+    }
+
+
+/* INTRODUCTION DE L'ENCADRE */
+.introencadreconnexion {
+    font-family: 'Halant', serif;
+    text-align:center;
+    font-size:1.6em;
+    padding-top:1.5em;
+}
+
+    @media screen and (max-width : 1280px) {
+        .introencadreconnexion {
+                font-size:1.2em;
+            }
+    }
+
+    @media screen and (max-width : 550px) {
+        .introencadreconnexion {
+            font-size:1em;
+        }
+    }
+
+    @media screen and (max-width : 400px) {
+        .introencadreconnexion {
+            font-size:0.75em;
+        }
+    }
+
+
+/* FORMULAIRE DE CONNEXION */
+.formulaireconnexion {
+    font-family: 'Halant', serif;
+    color:#707070;
+    width:18em;
+    padding-top:2em;
+    margin-left:5em;
+}
+
+    @media screen and (max-width : 1280px) {
+        .formulaireconnexion {
+                width: 14em;
+                margin-left:5.25em;
+            }
+    }
+
+    @media screen and (max-width : 550px) {
+        .formulaireconnexion {
+            width:12em;
+            margin-left:4em;
+        }
+    }
+
+    @media screen and (max-width : 400px) {
+        .formulaireconnexion {
+            margin-left:2.25em;
+        }
+    }
+
+
+.pseudoconnexion, .motdepasseconnexion {
+    border : solid #707070 0.01em;
+    font-size:1.25em;
+}
+
+    @media screen and (max-width : 1280px) {
+        .pseudoconnexion, .motdepasseconnexion {
+                font-size:1em;
+            }
+    }
+
+    @media screen and (max-width : 550px) {
+        .pseudoconnexion, .motdepasseconnexion {
+            font-size:0.8em;
+        }
+    }
+
+    @media screen and (max-width : 400px) {
+        .pseudoconnexion, .motdepasseconnexion {
+            font-size:0.6em;
+        }
+    }
+
+
+/* BOUTON CONNEXION */
+.boutonconnexion {
+    font-family: 'Halant', serif;
+    font-size:1.5em;
+    color:white;
+    background-color: #52908b;
+    width:12em;
+    height:1.8em;
+    margin-top:0.6em;
+}
+
+    @media screen and (max-width : 1280px) {
+        .boutonconnexion {
+                width: 11.2em;
+                font-size:1.25em;
+                padding-top: 0.15em;;
+            }
+    }
+
+    @media screen and (max-width : 550px) {
+        .boutonconnexion {
+            width:11.8em;
+            font-size:1em;
+        }
+    }
+
+    @media screen and (max-width : 400px) {
+        .boutonconnexion {
+            width:15em;
+            font-size:0.8em;
+        }
+    }
+
+
+/* PHRASE INSCRIPTION */
+.inscription {
+    font-family: 'Halant', serif;
+    color: #52908b;
+    font-size:1.25em;
+    text-align:center;
+    margin-top:2em;
+}
+
+    @media screen and (max-width : 1280px) {
+        .inscription {
+                font-size:1.1em;
+            }
+    }
+
+    @media screen and (max-width : 550px) {
+        .inscription {
+            font-size:0.9em;
+        }
+    }
+
+    @media screen and (max-width : 400px) {
+        .inscription {
+            font-size:0.8em;
+        }
+    }
+
+
+/* LIEN VERS LA PAGE INSCRIPTION */
+a:link {
+    color: #52908b;
+}
+  
+a:visited {
+    color: #52908b;
+}
+  
+a:focus {
+    background: none;
+}
+  
+a:hover {     
+    background: none;
+}
+
+
+/* POLAROID DE GAUCHE */
+.left-polaroid {
+    padding: 0.75em 0.75em 1.75em 0.75em; /* padding autour de la photo */
+    margin: 0 0 4.5em 8em;
+    width: 12em;
+    box-shadow: 0em 0.5em 1em 0em #656565; /* effet d'ombre */
+ 
+    -moz-transform: rotate(-4deg); /* rotation du polaroid */
+}
+
+    @media screen and (max-width : 1280px) {
+        .left-polaroid {
+            margin-left:5em;
+            }
+    }
+
+    @media screen and (max-width : 1090px) {
+        .left-polaroid {
+                display:none;
+            }
+    }
+
+/* POLAROID DE DROITE */
+.right-polaroid {
+    padding: 0.75em 0.75em 1.75em 0.75em; /* padding autour de la photo */
+    margin-left:7em;
+    margin-top:-8em;
+    margin-bottom:13em;
+    width: 12em;
+    box-shadow: 0em 0.5em 1em 0em #656565; /* effet d'ombre */
+ 
+    -moz-transform: rotate(8deg); /* rotation du polaroid */
+}
+
+    @media screen and (max-width : 1150px) {
+        .right-polaroid {
+            margin-left:4em;
+            }
+    }
+
+    @media screen and (max-width : 1090px) {
+        .right-polaroid {
+                display:none;
+            }
+    }

@@ -1,0 +1,138 @@
+html, body {
+    height: 100%;
+}
+
+.header{
+    margin-top: 3em;
+}
+
+/*Menu de gauche*/
+.bg-sable{
+    background-color:#dcdacd;
+    padding-bottom: 20%;
+}
+
+.menu{
+    padding-left: 15%;
+    padding-bottom: 100%;
+}
+
+.image-profil{
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+.titre-lang{
+    text-decoration: underline;
+}
+
+.button,input {
+    background-color: #52908b;
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 10px;
+    font-family: 'Halant', serif;
+}
+
+p{
+    font-family: 'Halant', serif;
+}
+
+  /*Corps de page*/
+
+h3{
+    font-family: 'Rancho', cursive;
+    text-decoration: underline;
+}
+
+h4{
+    font-family: 'Rancho', cursive;
+    text-decoration: underline;
+}
+
+.rectangle_desc{
+	position: relative;
+    width: 95%;
+    height: 20%;
+    overflow-wrap: break-word;
+    background:#dcdacd;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+/* unvisited link */
+a:link {
+    color: #366d68;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #52908b;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #366d68;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #366d68;
+  }
+
+.description{
+    font-family: 'Rancho', cursive;
+    text-decoration: underline;
+}
+
+.tourne {
+    transform: rotate(45deg); /* Équivalent à rotateZ(45deg) */
+  }
+
+.footer{
+    position: sticky;
+}
+
+@media all and (max-device-width: 480px)
+{
+    .image-profil{
+        width:70%;
+        height:70%;
+    }
+}
+
+@media all and (max-device-width: 480px)
+{
+    .rectangle_voyages{
+        width:300px;
+        height:400px;
+        background:#dcdacd;
+        margin-right: 2em;
+    }
+}
+
+@media all and (max-device-width: 480px)
+{
+    .menu{
+        padding-left: 15%;
+        padding-bottom: 10%;
+        text-align: center;
+    }
+}
+
+@media all and (max-device-width: 480px)
+{
+    .rectangle_desc{
+        position: relative;
+        width: 80%;
+        height: 20%;
+        overflow: hidden;
+        background:#dcdacd;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}

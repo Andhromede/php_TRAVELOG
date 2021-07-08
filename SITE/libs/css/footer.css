@@ -1,0 +1,95 @@
+/* DESIGN GENERAL */
+.footer{
+background-color: #52908B;
+text-align: center;
+}
+
+/* TEXTES */
+.CGU, .ML, .contact, .copyright {
+    color:white;
+    font-family: 'Halant', serif;
+    font-weight: bolder;
+    font-size:1em;
+    border-right:1px solid white;
+    padding-top:0.25em;
+    padding-bottom:0.25em;
+}
+
+    @media screen and (max-width : 1050px) {
+        .CGU, .ML, .contact {
+                font-size:0.8em;
+            }
+    }
+
+    @media screen and (max-width : 855px) {
+        .CGU, .ML, .contact {
+                font-size:0.6em;
+                align-items:center;
+            }
+    }
+
+        .liencontact:link {
+            color: white;
+            text-decoration:none;
+        }
+
+        .liencontact:visited {
+            color: white;
+        }
+
+
+.copyright {
+border-right:none;
+}
+
+/* CONDITIONS GENERALES D'UTILISATION et MENTIONS LEGALES */
+.cgu-title,.ML-title{
+    color : #52908b;
+    margin-left:2em;
+}
+
+.text-cgu,.text-ML{
+    text-align:justify;
+}
+
+#btn-fermer-cgu,#btn-fermer-ML{
+    background-color:#52908b;
+    border:none;
+}
+
+/* LIENS VERS POP-UP */
+/* CGU */
+.liencgu:link {
+    color: white;
+}
+  
+.liencgu:visited {
+    color: white;
+}
+  
+.liencgu:focus {
+    background:none;
+}
+  
+.liencgu:hover {     
+    background: none;
+    text-decoration:none;
+}
+
+/* MENTIONS LEGALES */
+.lienML:link {
+    color: white;
+}
+  
+.lienML:visited {
+    color: white;
+}
+  
+.lienML:focus {
+    background:none;
+}
+  
+.lienML:hover {     
+    background: none;
+    text-decoration:none;
+}

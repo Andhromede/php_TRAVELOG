@@ -1,0 +1,119 @@
+.bg-sable{
+    background-color:#dcdacd;
+}
+
+.menU{
+    padding-left: 15%;
+}
+
+.centrage {
+    text-align: center;
+}
+
+.placenav{
+    margin-top:3.5em;
+}
+
+.placefooter{
+    margin-bottom:3em;
+}
+
+.menu_lateral_detail_voyage {
+    background-color:#dcdacd;
+    font-family: 'Halant', serif;
+    margin-top:3em;
+    padding-bottom:80em;
+    width:14.5em;
+}
+
+.button {
+    background-color: #52908b;
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 10px;
+    font-family: 'Halant', serif;
+}
+
+    @media screen and (max-width : 1200px) {
+        .menu_lateral_detail_voyage {
+                width:11.7em;
+                padding-bottom:70em;
+            }
+    }
+
+    @media screen and (max-width : 910px) {
+        .menu_lateral_detail_voyage {
+                width:10.5em;
+                margin-top:2.5em;
+                padding-bottom:45em;
+            }
+    }
+
+    @media screen and (max-width : 750px) {
+        .menu_lateral_detail_voyage {
+                width:36.5em;
+                padding-bottom:1%;
+            }
+    }
+
+    @media screen and (max-width : 480px) {
+        .menu_lateral_detail_voyage {
+                width:29em;
+                padding-bottom:1%;
+                width:30em;
+            }
+    }
+
+/*CORPS*/
+
+body{
+    overflow-x: hidden;
+}
+
+.adroite{
+    text-align: right !important;
+    /* position:relative !important; */
+}
+
+.photo_profil_mes_amis{
+    max-height: 3em;
+}
+.placenav_titre{
+    margin-top:2em;
+}
+
+.btn-info,
+.btn-info:hover,
+.btn-info:active,
+.btn-info:visited,
+.btn-info:focus{
+    background-color: #52908b !important;
+}
+
+/* PAGES */
+.pages {
+    font-family: 'Halant', serif;
+    color: #707070;
+    font-size:1.4em;
+    text-align: center;
+}
+
+#noPage {
+    background-color:#dcdacd;
+    color:#52908b;
+    border:1.5px solid #52908b;
+}
+
+#noPage:focus {
+    background-color:#52908b;
+    color:#dcdacd;
+}
+
+#noPage:hover {
+    background-color:#52908b;
+        color:#dcdacd;
+}

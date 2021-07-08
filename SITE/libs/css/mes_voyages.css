@@ -1,0 +1,204 @@
+/* RESULTATS FILTRES VOYAGES */
+.rsvoyages {
+    font-family: 'Halant', serif;
+    color: #707070;
+    font-size:1em;
+    font-style: italic;
+    margin-top:6em;
+    text-align: center;
+}
+
+.photosVoyage {
+    width:20em;
+}
+
+    @media screen and (max-width : 1330px) {
+        .photosVoyage {
+                width:18em;
+            }
+    }
+
+    @media screen and (max-width : 1120px) {
+        .photosVoyage {
+                width:16em;
+            }
+    }
+
+    @media screen and (max-width : 990px) {
+        .photosVoyage {
+                width:12em;
+            }
+    }
+
+    @media screen and (max-width : 900px) {
+        .photosVoyage {
+                width:10em;
+            }
+    }
+
+    @media screen and (max-width : 820px) {
+        .photosVoyage {
+                width:8em;
+            }
+    }
+
+    @media screen and (max-width : 690px) {
+        .photosVoyage {
+                width:10em;
+            }
+    }
+
+    /* TABLEAU */
+    .table { /* design général du tableau */
+        text-align:center;
+    }    
+
+#enteteTableVoyage {
+    background-color:#52908b;
+    border-radius:50%;
+    font-family: 'Halant', serif;
+    color:white;
+    font-size:1em;
+}
+
+#corpsTableVoyage { /* tbody */
+    background-color: #dcdacd;
+    font-family: 'Halant', serif;
+    text-align:center;
+    font-size:1.15em;
+}
+
+    @media screen and (max-width : 1200px) {
+        #corpsTableVoyage {
+                font-size:1em;
+            }
+    }
+
+    @media screen and (max-width : 970px) {
+        #corpsTableVoyage {
+                font-size:0.85em;
+            }
+    }
+
+#ligneVoyage{ /* tr */
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
+
+
+    .lienProfil:link { /* esthétique des liens menant vers les profils */
+        color:#707070;
+    }
+
+    .lienProfil:visited {
+        color:#707070;
+    }
+
+    .lienProfil:focus {
+        background: none;
+    }
+
+    .lienProfil:hover {   
+        color:#707070; 
+        background: none;
+        text-decoration:none;
+    }
+
+.photosVoyage { /* photos des voyages */
+    width:20em;
+}
+
+    @media screen and (max-width : 1200px) {
+        .photosVoyage {
+                width:16em;
+            }
+    }
+
+#resumeTable { /* en bref */
+    text-align:justify;
+}
+
+#btnDetailsVoyage { /* bouton Découvrir */
+    background-color:#52908b;
+    font-family: 'Halant', serif;
+    color:white;
+    border:none;
+    margin-left:40%;
+    margin-top:2%;
+}
+
+    @media screen and (max-width : 910px) {
+        #btnDetailsVoyage {
+                width:5em;
+                font-size:1em;
+            }
+    }
+
+/* HAUT DE PAGE */
+
+.titre_mesvoyages{
+    font-family: 'Rancho', cursive;
+    font-size:3em;
+    color:#52908b;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.photoprofilrond{
+        max-height: 3em;
+    }
+    
+        @media screen and (max-width : 1000px) {
+            .photoProfil{
+                display:none;
+                }
+        }
+
+
+.ghost{
+    opacity: 0;
+}
+
+/* unvisited link */
+a:link {
+    color: #366d68;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #52908b;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #366d68;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #366d68;
+  }
+
+/* PAGES */
+.pages {
+    font-family: 'Halant', serif;
+    color: #707070;
+    font-size:1.4em;
+}
+
+#noPage {
+    background-color:#dcdacd;
+    color:#52908b;
+    border:1.5px solid #52908b;
+}
+
+#noPage:focus {
+    background-color:#52908b;
+    color:#dcdacd;
+}
+
+#noPage:hover {
+    background-color:#52908b;
+        color:#dcdacd;
+}

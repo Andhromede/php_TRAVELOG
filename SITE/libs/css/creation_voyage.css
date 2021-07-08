@@ -1,0 +1,109 @@
+/* Corps de la page */
+
+body{
+    overflow-x: hidden;
+}
+
+.background-body{
+    background-color: #dcdacd;
+}
+h1{
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    color: #52908b;
+}
+
+h4{
+    font-family: 'Halant', serif;
+    text-align: center;
+}
+
+.header{
+    margin-top: 6em;
+}
+
+.footer{
+    margin-top: 2em;
+}
+
+.checkbox-background{
+    background-color: #52908b;
+}
+
+.files-background{
+    background-color: #52908b;
+}
+
+p{
+    font-family: 'Halant', serif;
+}
+
+/* Boutons */
+
+.button {
+    background-color: #52908b;
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 10px;
+    font-family: 'Halant', serif;
+    margin-top: 1em;
+  }
+
+.btn-group button{
+    border: none;
+    margin-top: 1em;
+    background-color: #52908b;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+}
+
+/* Formulaires */
+.form-titre{
+    font-family: 'Halant', serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.form-text{
+    font-family: 'Halant', serif;
+}
+
+.form-files{
+    font-family: 'Halant', serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.add-file{
+    margin-top: 1em;
+}
+
+.checkbox{
+    font-family: 'Halant', serif;
+    color: white;
+}
+
+.addfiles{
+    color: white;
+}
+
+.rectangle-files{
+	width:300px;
+	height:35px;
+    background:#52908b;
+    position: relative;
+}
+
+.rectangle-checkbox{
+	width:350px;
+    height:42px;
+    text-align: center;
+    background:#52908b;
+    position: relative;
+}
